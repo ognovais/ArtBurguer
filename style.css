@@ -1,0 +1,245 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.metadepreta{
+    background-color: burlywood;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#cabecalho .span1{
+    background-color: burlywood;
+    color: white;
+    padding: 4px;
+    margin: 5px;
+}
+
+#cabecalho h2{
+    position: relative;
+    top: 50px;
+    left: 140px;
+    font-size: 28px;
+}
+
+#cabecalho p{
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+#cabecalho img{
+    width: 70px;
+    position: relative;
+    bottom: 75px;
+    left: 60px;
+}
+
+#menu a{
+    position: relative;
+    left: 1000px;
+    bottom: 150px;
+    margin: 40px;
+    font-size: 1.6em;
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+#menu button{
+    border: none;
+    background-color: white;
+    position: relative;
+    left: 1040px;
+    bottom: 153px;
+    padding: 18px;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 20px;
+    color: #F25C05;
+    border: 2px solid #F25C05;
+    filter: drop-shadow(1px 1px 1px #000);
+}
+
+.logo{
+    position: relative;
+    left: 170px;
+    top: 10px;
+}
+
+/*FORMATAÇÃO DE LINKS*/
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    display: inline-block;
+    transition: .2s;
+}
+
+button{
+    transition: .2s;
+}
+
+a:hover{
+    transform: scale(1.2);
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/*FORMATAÇÃO DO CENTRO*/
+.centro > img{
+    position: relative;
+    left: 780px;
+    bottom: 60px;
+    width: 500px;
+    filter: brightness(90%);
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+.esquerda > h3{
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+    font-size: 40px;
+    color: burlywood;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.esquerda > h1{
+    position: relative;
+    bottom: 570px;
+    left: 160px;
+    font-size: 70px;
+    color: rgb(245, 174, 82);
+    font-weight: 900;
+}
+
+.esquerda > p{
+    position: relative;
+    bottom: 630px;
+    left: 170px;
+    width: 30%;
+    color: burlywood;
+}
+
+.esquerda > button{
+    position: relative;
+    bottom: 620px;
+    left: 330px;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    font-weight: 700;
+    margin: 15px;
+    font-size: 22px;
+}
+
+#rodape{
+    position: relative;
+    bottom: 570px;
+    left: 1150px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
+
+
+.contato{
+    position: relative;
+    bottom: 450px;
+    left: 1600px;
+}
+
+.img1, .img2, .img3{
+    margin: 8px;
+}
+
+.direita{
+    position: relative;
+    bottom: 1250px;
+    float: right;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    height: 500px;
+}
+
+.burg1, .burg2, .burg3{
+    margin-top: 20px;
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+.fade-in {
+    width: 100%;
+    height: 500px; /* Ajuste conforme necessário */
+    background: url('imagem/pngtree-juicy-burgers-with-a-transparent-background-png-image_6603069\ \(1\).png') center center/cover no-repeat;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+  
+  .fade-in.active {
+    opacity: 1;
+}
+
+.seta{
+    position: relative;
+    bottom: 880px;
+    left: 1350px;
+    display: inline;
+}
+
+.seta > button{
+    background: white;
+    border: 1px solid #F25C05;
+    border-radius: 25px;
+    filter: drop-shadow(2px 2px 2px #000);
+}
+
+/*CARDAPIO*/
+
+.texto > h3{
+    position: relative;
+    top: 10px;
+    left: 200px;
+    font-size: 40px;
+    color: burlywood;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.texto > h1{
+    position: relative;
+    bottom: 60px;
+    left: 160px;
+    font-size: 70px;
+    color: rgb(245, 174, 82);
+    font-weight: 900;
+}
+
+.texto > p{
+    position: relative;
+    bottom: 120px;
+    left: 170px;
+    width: 30%;
+    color: burlywood;
+}
+
+.foto{
+    position: relative;
+    left: 1000px;
+    bottom: 600px;
+}
