@@ -25,7 +25,7 @@ O projeto foi criado durante o início da graduação como prática de desenvolv
 
 ## 📷 Preview
 
-![Preview do Projeto](assets/artburger.png)
+![Preview do Projeto](assets/landingpage.jpg)
 
 ---
 
